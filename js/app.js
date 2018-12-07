@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLocation = '/twittor/sw.js';
+var swLocation = '/twittor/sw.js'; // twittor es el nombre de la app en github
 
 if(navigator.serviceWorker){
     if ( url.includes('localhost') ) {
